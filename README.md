@@ -112,7 +112,7 @@ Since my work is in a publicly-accesible repository, it can be copied in 3 diffe
 
 ### Content
 
-All textual content on the site is written in my own words and of my own opinion.
+All textual content on the site is written in my own words and of my own opinion, except for recipe post content which is sourced from [BBC Good Food](https://www.bbcgoodfood.com/recipes/category/all-cakes-baking).
 
 ### Media
 
