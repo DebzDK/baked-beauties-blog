@@ -6,7 +6,16 @@
 
 ## Requirements
 
-<!--TODO-->
+Before jumping into the design process, requirements needed to be specified in order to know exactly what the blog should achieve to meet the assessment criteria.
+
+The following functional requirements were decided on:
+1. The site must allow new users to sign up.
+1. The site must allow existing users to log in and out.
+1. The site must not permit access to restricted content prior to role-based login. 
+1. The site must have an admin portal.
+1. The site must display a navigable main menu.
+1. The site must be responsive.
+1. The site must allow users to perform CRUD operations on relevant models.
 
 ## Design
 
@@ -14,11 +23,39 @@ Evidence for this section has been placed in its own .md file which can be found
 
 ## Features
 
-Each feature listed below was chosen to provide users with a clear, logical path through the application content in order for this project to achieve its goal and its functional requirements.
+Each feature listed below was chosen for this project to achieve its goal and its functional requirements.
 
 ### Existing features
 
-<!--TODO-->
+<!--TODO: Add images -->
+
+* Home page
+
+    * Collapsable main menu
+
+    * Recent posts
+
+* Recipes page
+
+* Visuals page
+
+* About page
+
+* Contact page
+
+* Post search bar
+
+* Quick post creation
+
+* Detailed post view
+
+* User profile
+
+    * Account
+
+    * Stats
+
+* Admin portal
 
 ### Future features
 
@@ -33,6 +70,10 @@ Each feature listed below was chosen to provide users with a clear, logical path
 * Ability to send out an email to let users know when there's a new blogpost
 
     This would have been a cool feature to implement to make it feel more like a real blog site.
+
+* Ability to report posts and comments
+
+    This would have also been a feature to implement to make it feel more like a real blog site.
 
 ## Languages and technologies used
 
