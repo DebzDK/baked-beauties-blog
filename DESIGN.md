@@ -1,5 +1,23 @@
 # Design
 
+## Database design
+
+[dbdiagram.io](https://dbdiagram.io/) was used to create a database design diagram.
+
+The diagram represents the basic structure of the database that will be used for the blog - i.e. how information will be stored, categorized and managed within it.
+Each entity/table correlates to a key aspect of the blog that will need to be implemented in order for the blog to function as intended.
+
+*Note: The data types specified here are SQL data types as opposed to their equivalent Django field types once modelled.*
+
+![Database diagram markdown for 'Baked Beauties'](documentation/screenshots/evidence/design/database-design-markdown.png)
+![Database diagram for 'Baked Beauties'](documentation/screenshots/evidence/design/database-design-diagram.png)
+
+## Encapsulation
+
+[Lucidchart](https://www.lucidchart.com/) was used to create a [Unified Modeling Language (UML)/class diagram](https://en.wikipedia.org/wiki/Unified_Modeling_Language) diagram as shown below, in order to model the various components of the blog and separate concerns.
+
+![Class diagram for 'Baked Beauties'](documentation/screenshots/evidence/design/class-diagram.png)
+
 ## Wireframes
 
 The wireframes for the chosen project idea were created digitally using Balsamiq and based around the [W3Schools Blog Template design](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_blog&stacked=h).
