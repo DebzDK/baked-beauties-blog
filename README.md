@@ -118,7 +118,7 @@ The application was deployed via [Heroku](https://www.heroku.com/) using the ste
 
     ![Screeshot of deployment step 2](documentation/screenshots/evidence/deployment/deployment-step-2.png)
 
-1. Connect to Github and find the guess-the-language project.
+1. Connect to Github and find the baked-beauties-blog project.
 
     ![Screeshot of deployment step 3](documentation/screenshots/evidence/deployment/deployment-step-3.png)
 
