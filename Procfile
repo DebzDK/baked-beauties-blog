@@ -1,0 +1,1 @@
+web: gunicorn baked_beauties_blog.wsgi
