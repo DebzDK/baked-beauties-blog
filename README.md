@@ -10,64 +10,7 @@
 
 ## Design
 
-### Wireframes
-
-<!--TODO-->
-
-### Typography
-
-Google Fonts was used to find and select fonts for the site's typography.
-
-'[Lobster Two](https://fonts.google.com/specimen/Lobster+Two)' is used for headings and the navigation bar and footer text.
-'[Playfair Display](https://fonts.google.com/specimen/Playfair+Display)' is used for all other text.
-
-![Google Fonts Lobster Two selection screenshot](documentation/screenshots/evidence/design/google-fonts-selection-1.png)
-![Google Fonts Playfair Display selection screenshot](documentation/screenshots/evidence/design/google-fonts-selection-2.png)
-
-### Colours
-
-The site's colour scheme was chosen using the Adobe Color scheme extraction tool and a random image found from a Google search for 'cupcake'.
-
-![Adobe Color scheme extraction tool screenshot](documentation/screenshots/evidence/design/colour-scheme.png)
-
-### Coding practices
-
-To ensure that the project code is up to standard, the following PEP rules were adhered to:
-
-* [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) - for best code style practices (i.e. layout, naming conventions, comments, etc.) and programming recommendations on function and variable annotations
-* [PEP 257 -- Docstring Conventions](https://www.python.org/dev/peps/pep-0257/) - for general rules on docstrings
-* [NumPy Style Guide](https://numpydoc.readthedocs.io/en/latest/format.html) - for a more detailed explanation of what goes where in docstrings, using [this](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html) specifically as an example to follow
-* [PEP 3107 -- Function Annotations](https://www.python.org/dev/peps/pep-3107/) - for a specific way to specify function information and avoid confusion
-* [PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-3107/) - also for purposes of clarity (although provisional)
-* [PEP 526 -- Syntax for Variable Annotations](https://www.python.org/dev/peps/pep-0526/) - also for purposes of clarity
-
-### Planning and execution
-
-Agile practices were used to carry out this project and documented in Trello [planning/design board](https://trello.com/b/i7BTn4iC/project-planning-design) and [dev board](https://trello.com/b/wsBEYfJM/project-development) and [Github Projects](https://github.com/DebzDK/baked-beauties-blog/projects/1).
-
-*Please note that more task details + resources are available in the Trello boards than in the Github Projects page.*
-
-Each board is divided into 3 swimlanes/columns:
-* 'To Do' - used to list tasks that are yet to be done
-* 'In Progress' - used to list tasks that are currently being carried out
-* 'Done' - used to list completed tasks
-
-After defining the status divisions for a task, the indicators for time constraints were defined using 't-shirt sizes'.
-
-![Card labels screenshot from Trello](documentation/screenshots/evidence/design/task-sizes-and-areas.png)
-
-‘T-shirt sizes’ were defined to provide an estimate for the perceived difficulty of a task and extra labels to further separate tasks by what part of the process they’re related to, i.e. Requirements, Design, Development, and Testing.
-The project area labels have been defined as follows:
-* ‘Requirements’ - refers to things that are directly taken from or related to the project’s assessment criteria rather than actions derived from a requirements capture process
-* 'Design' - refers to steps taken towards the appearance of the website
-* 'Development' - refers to steps taken towards the implementation of the website
-* 'Testing' - refers to steps taken towards validating the HTML and CSS as well as testing the responsiveness of the website
-
-At this point, user stories were created in order to produce tasks while thinking from a user's perspective.
-
-![Screenshot of first user story made in Trello](documentation/screenshots/evidence/design/first-user-story.png)
-
-All other user stories follow the same kind of format except for where the user story is self-explanatory of the task.
+Evidence for this section has been placed in its own .md file which can be found [here](https://github.com/DebzDK/baked-beauties-blog/blob/main/DESIGN.md).
 
 ## Features
 
