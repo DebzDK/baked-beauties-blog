@@ -118,20 +118,23 @@ The application was deployed via [Heroku](https://www.heroku.com/) using the ste
 
     ![Screeshot of deployment step 2](documentation/screenshots/evidence/deployment/deployment-step-2.png)
 
-1. Add Postgres add-on.
+1. Connect to Github and find the guess-the-language project.
 
     ![Screeshot of deployment step 3](documentation/screenshots/evidence/deployment/deployment-step-3.png)
 
+1. Add Postgres add-on.
+
+    ![Screeshot of deployment step 3](documentation/screenshots/evidence/deployment/deployment-step-4.png)
+
 1. Set up configuration variables.
 
-    ![Screeshot of deployment step 4](documentation/screenshots/evidence/deployment/deployment-step-4.png)
+    ![Screeshot of deployment step 4](documentation/screenshots/evidence/deployment/deployment-step-5.png)
 
-1. Due to an issue with Heroku and GitHub at the time of deployment, Heroku CLI was using instead of automatic deployments.
+1. Choose either 'Enable Automatic Deployments' or 'Deploy' for manual deployments.
 
-    *Note: Automatic deployments were not enabled for this project.*
+    *Note: Automatic deployments were enabled for this project.*
 
-    ![Screeshot of deployment step 5a](documentation/screenshots/evidence/deployment/deployment-step-5a.png)
-    ![Screeshot of deployment step 5b](documentation/screenshots/evidence/deployment/deployment-step-5b.png)
+    ![Screeshot of deployment step 5a](documentation/screenshots/evidence/deployment/deployment-step-6.png)
 
 The live link can be found here - https://baked-beauties-blog.herokuapp.com/
 
