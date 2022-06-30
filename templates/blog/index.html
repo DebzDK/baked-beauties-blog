@@ -1,0 +1,93 @@
+{%  extends 'blog/base.html' %}
+
+{% block content %}
+                <h2 class="content-header text-uppercase">{{ page_title }}</h2>
+                <hr>
+                <div class="col-12 mt-3 left">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-12">
+                            <div class="card mb-4 shadow-effect">
+                                <div class="card-body">
+                                    <div class="d-flex flex-wrap justify-content-between">
+                                        <a href="#" role="button" aria-label="Navigate to full post" class="post-link">
+                                            <h3 class="card-title">5 Reasons Why Your Cake Is Sinking In The Middle...</h3>
+                                            <h4>Trust Me...</h4>
+                                        </a>
+
+                                        <div class="post-controls">
+                                            <button aria-label="Like post" class="btn d-inline"><i class="bi bi-hand-thumbs-up"></i></button>
+                                            <button aria-label="Heart post" class="btn d-inline"><i class="bi bi-heart"></i></button>
+                                            <button aria-label="Dislike post" class="btn d-inline"><i class="bi bi-hand-thumbs-up"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="align-items-center pb-3">
+                                        <i class="bi bi-clock text-muted mx-1"></i>Post by <span class="post-username">John Doe</span> - 1/5/22 @ 1:00pm
+                                    </div>
+                                    
+                                    <div class="align-items-center">
+                                        <button aria-label="Filter posts by tag" class="btn tag">Cake</button>
+                                        <button aria-label="Filter posts by tag" class="btn tag">Baking Tips</button>
+                                    </div>
+
+                                    <br>
+
+                                    <div>
+                                        <p class="lead text-truncate">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit, eros nec viverra viverra, ante mauris malesuada metus, vel molestie lorem ante non purus. Duis scelerisque vehicula leo. Integer bibendum nibh turpis, a facilisis enim facilisis vitae. Ut id blandit justo. Vestibulum vel augue vulputate, tempus nisi non, hendrerit nulla. Sed lobortis iaculis ipsum et tristique. Donec at commodo velit, nec mollis nunc. Sed ut volutpat est. Nunc pulvinar neque quis sem dignissim dapibus. Vivamus ac mollis lorem, non blandit est. Cras id lorem eu mi faucibus dictum at a sapien. Etiam imperdiet elementum gravida...
+                                        </p>
+
+                                        <div class="d-flex flex-wrap justify-content-between pt-4">
+                                            <button aria-label="Click to read more" class="btn card-link p-0">Click to read more</a></button>
+                                            
+                                            <div class="d-flex align-items-center">
+                                                <button aria-label="Click to view post comments" class="btn p-1">
+                                                    <i class="bi bi-chat-dots"></i>
+                                                </button>
+                                                <span class="chat-count text-center">0</span>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="row">
+                    Blog Posts Column
+                    <div class="col-12 mt-3 left">
+                        <div class="row">
+                            {% for post in post_list %}
+                            <div class="col-md-4">
+                                <div class="card mb-4">
+                                    <div class="card-body">
+                                        <div class="image-container">
+                                            {% if "placeholder" in post.featured_image.url %}
+                                            <img class="card-img-top"
+                                                src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
+                                            {% else %}
+                                            <img class="card-img-top" src=" {{ post.featured_image.url }}">
+                                            {% endif %}
+                                            <div class="image-flash">
+                                                <p class="author">Author: {{ post.author }}</p>
+                                            </div>
+                                        </div>
+                                        <a href="{% url 'post_detail' post.slug  %}" class="post-link">
+                                            <h2 class="card-title">{{ post.title }}</h2>
+                                            <p class="card-text">{{ post.excerpt }}</p>
+                                        </a>
+                                        <hr />
+                                        <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i>
+                                            {{ post.number_of_likes }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% if forloop.counter|divisibleby:3 %}
+                        </div>
+                        <div class="row">
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div> -->
+{% endblock %}

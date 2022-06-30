@@ -18,6 +18,11 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Body height set to viewport height to ensure footer is at the bottom of the page */
+body {
+    height: 100vh;
+}
+
 /* Body and footer background color, font colour, and font family are set for consistency */
 body,
 footer {
@@ -55,7 +60,6 @@ footer {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    min-width: 220px;
     margin: 0;
     padding: 20px 15px;
     justify-content: center;
@@ -213,12 +217,17 @@ hr.menu-vertical-rule {
 /*#endregion*/
 
 /*#region Main Content*/
+main {
+    flex: 1;
+}
+
 .tag {
     border: 2px solid #000000;
     padding: 5px 3px;
     background-color: #F2CED5;
     box-shadow: 3px 3px #00000077;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .tag:hover {
@@ -274,6 +283,19 @@ footer {
 }
 /*#endregion*/
 
+/*#region Contact Page */
+fieldset {
+    padding: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #a9a9a988;
+}
+
+#contact-form-msg {
+    width: 70%;
+    height: 150px;
+}
+/*#endregion*/
+
 /*#region Media Queries*/
 /*#region Menu for smaller screens*/
 @media screen and (max-width: 800px) {
@@ -283,9 +305,10 @@ footer {
 
     #collapsible-menu {
         flex-direction: row;
-        height: auto;
+        height: 140px;
         flex: 1;
         font-size: 1.5rem;
+        box-shadow: none;
     }
 
     #title {

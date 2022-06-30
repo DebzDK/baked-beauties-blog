@@ -1,0 +1,79 @@
+{% load static %}
+
+<header id="collapsible-menu" class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3 centered-content shadowed-text shadow-effect">
+    <h1 id="title">Baked Beauties</h1>
+
+    <div id="logo-container" class="text-center">
+        <img id="logo" src="{% static 'assets/images/logo.png' %}">
+    </div>
+
+    <nav class="centered-content">
+        <ul id="menu">
+            <li>
+                <a href="/" role="button" aria-label="Navigate to home page">
+                    <i class="bi bi-house-door-fill"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" role="button" aria-label="Navigate to blog posts view filtered by recipes tag">
+                    <i class="bi bi-list-task"></i>
+                    <span>Recipes</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" role="button" aria-label="Navigate to blog posts view filtered by visuals tag">
+                    <i class="bi bi-camera-fill"></i>
+                    <span>Visuals</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about" role="button" aria-label="Navigate to about page">
+                    <i class="bi bi-question-lg"></i>
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/contact" role="button" aria-label="Navigate to contact page">
+                    <i class="bi bi-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li id="burger-menu" class="dropdown-menu text-center">
+                <a href="#" aria-label="Navigation menu">
+                    <hr class="bar">
+                    <hr class="bar">
+                    <hr class="bar">
+                </a>
+                <div class="dropdown-content">
+                    <a href="/" role="button" aria-label="Navigate to home page">Home</a>
+                    <a href="#" role="button" aria-label="Navigate to blog posts view filtered by recipes tag">Recipes</a>
+                    <a href="#" role="button" aria-label="Navigate to blog posts view filtered by posts with images">Visuals</a>
+                    <a href="/about" role="button" aria-label="Navigate to about page">About</a>
+                    <a href="/contact" role="button" aria-label="Navigate to contact page">Contact</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    
+    <div id="additional-nav-controls" class="text-center">
+        <span id="auth-access" class="mb-5">
+            <a href="#" role="button" aria-label="Navigate to login page">Login</a>
+            <hr class="vertical-rule">
+            <a href="#" role="button" aria-label="Navigate to sign up page">Sign Up</a>
+        </span>
+        
+        <form id="side-menu-search-posts-form" class="m-3" onsubmit="return false;">
+            <div class="input-group mb-3">
+                <button class="btn btn-primary" aria-label="Search" type="submit">
+                    <i class="bi bi-search shadowed-text"></i>
+                </button>
+                <input id="search" name="search" type="text" class="form-control" placeholder="search posts">
+              </div>
+        </form>
+
+        <button id="menu-toggler" aria-label="Toggle side-menu visibility" class="shadowed-text">
+            <span>&#x21E6; Hide</span>
+        </button>
+    </div>
+</header>
