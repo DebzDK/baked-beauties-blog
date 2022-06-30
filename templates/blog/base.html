@@ -33,8 +33,8 @@
             </main>
     
             <footer class="d-flex flex-wrap footer p-3 shadowed-text">
-                <section id="sticky-search" class="col-12">
-                    <form id="footer-search-posts-form" class="col-9 my-0 mx-auto centered-shadow-effect" onsubmit="return false;">
+                <section id="sticky-search">
+                    <form id="footer-search-posts-form" class="col-9 my-0 mx-auto" onsubmit="return false;">
                         <div class="input-group mb-3">
                             <button class="btn btn-primary" aria-label="Search" type="submit">
                                 <i class="bi bi-search shadowed-text"></i>
@@ -42,6 +42,12 @@
                             <input id="search" name="search" type="text" class="form-control" placeholder="search posts">
                           </div>
                     </form>
+                </section>
+
+                <section id="footer-auth-access" class="mt-2">
+                    <a href="/login" role="button" aria-label="Navigate to login page">Login</a>
+                    <hr class="menu-vertical-rule">
+                    <a href="/sign-up" role="button" aria-label="Navigate to sign up page">Sign Up</a>
                 </section>
 
                 <section class="col text-start min-vw-50">
@@ -63,7 +69,7 @@
                     <h5>Navigation</h5>
                     <ul id="footer-nav-list">
                         <li>
-                            <a href="#" role="button" aria-label="Navigate to home button">Home</a>
+                            <a href="/" role="button" aria-label="Navigate to home button">Home</a>
                         </li>
                         <li>
                             <a href="#" role="button" aria-label="Navigate to body section button">Recipes</a>

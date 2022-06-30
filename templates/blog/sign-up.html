@@ -1,0 +1,46 @@
+{%  extends 'blog/base.html' %}
+
+{% block content %}
+                <h2 class="text-center mb-4">{{ page_title }}</h2>
+
+                <div class="mb-5 centered-content text-center justify-content-center">
+                    <form action="" id="sign-up-form" class="needs-validation">
+                        <fieldset class="shadow-effect">
+                            <div class="mb-4">
+                                <label for="username" class="form-label">Username</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="prepend">@</span>
+                                    <input type="text" class="form-control" id="username" aria-describedby="prepend" placeholder="Enter username" max-length="30" required>
+                                    <div class="invalid-feedback">
+                                        Please choose a username.
+                                    </div>
+                                </div>
+                            </div>     
+                            
+                            <div class="mb-4">
+                                <label for="fname" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="fname" aria-label="Enter first name" placeholder="Enter first name" required>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="lname" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="lname" aria-label="Enter last name" placeholder="Enter last name" required>
+                            </div> 
+                            
+                            <div class="mb-4">
+                                <label for="pwd" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="pwd" aria-describedby="note" required>
+
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please enter a valid email address.
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" onsubmit="return form.checkValidity();">Send</button>
+                        </fieldset>
+                    </form>
+                </div>
+{% endblock %}

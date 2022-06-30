@@ -19,3 +19,15 @@ def contact(request):
     """Renders contact page."""
     page_title = "Contact"
     return render(request, "blog/contact.html", {"page_title": page_title})
+
+
+def sign_up(request):
+    """Renders sign up page."""
+    page_title = "Sign Up"
+    return render(request, "blog/sign-up.html", {"page_title": page_title})
+
+
+def login(request):
+    """Renders login page."""
+    page_title = "Login"
+    return render(request, "blog/login.html", {"page_title": page_title})
